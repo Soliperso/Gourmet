@@ -1,7 +1,15 @@
-import React from 'react';
+import Header from './components/Layout/Header';
+import Meals from './components/Meals/Meals';
 
-const App = () => {
-  return <div>Hello World</div>;
+const App = (props) => {
+  return (
+    <>
+      <Header />
+      <main>
+        <Meals />
+      </main>
+    </>
+  );
 };
 
 export default App;
